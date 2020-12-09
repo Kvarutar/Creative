@@ -1,0 +1,35 @@
+.header
+    padding: 23px
+    display: flex
+    &__right
+        margin-left: 70px
+        width: 100%
+        display: flex
+        justify-content: space-between
+    &__bank
+        position: relative
+        &::after
+            right: -37px
+            top: 0
+            display: block
+            content: " "
+            height: 36px
+            position: absolute
+            width: 1px
+            background-color: #E1E1E3
+    &__info
+        &_tel
+            a
+                text-decoration: none
+                color: #2B2D33
+                font-weight: normal
+                font-size: 20px
+                line-height: 26px
+                text-align: right
+        &_descr
+            text-align: right
+            color: #808185
+            font-style: normal
+            font-weight: normal
+            font-size: 13px
+            line-height: 18px

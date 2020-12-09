@@ -1,0 +1,53 @@
+.prev
+    cursor: pointer
+    position: absolute
+    width: 42px
+    height: 42px
+    background-color: #FEE600
+    border-radius: 15px
+    left: -72px
+    top: 50%
+    &:hover
+        background: #FED500
+    &__img
+        position: absolute
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+.next
+    cursor: pointer
+    position: absolute
+    width: 42px
+    height: 42px
+    background-color: #FEE600
+    border-radius: 15px
+    right: -30px
+    top: 50%
+    &:hover
+        background: #FED500
+    &__img
+        position: absolute
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+.slick-dots
+    margin: 0 auto
+    margin-top: 30px
+    width: 77px
+    list-style-type: none
+    display: flex
+    justify-content: space-between
+    .slick-active
+        background-color: #FED500 
+        border: 1px solid #FED500 
+.transparent-circle 
+    list-style-type: none
+    display: flex
+    border: 1px solid #808185
+    height: 7px
+    width: 7px
+    -webkit-border-radius: 100%
+    -moz-border-radius: 100% 
+.slick-list
+    padding-left: 16px !important
+
